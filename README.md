@@ -21,7 +21,11 @@ mac_companion常驻 mac 顶部菜单栏。可以让我在绝大多数 app 中，
 - **chatglm-6b**: 3.8.18;
 <br>
 
-## step 1
+## Step 1
+
+```git clone https://github.com/craii/mac_companion.git && cd mac_companion```
+
+## Step 2
 **安装 chatglm**:
    - 如果你倾向于使用完全版的 chatglm：请参照 [https://github.com/THUDM/ChatGLM3](https://github.com/THUDM/ChatGLM3) ；
    - 如果你倾向于使用量化加速后的 chatglm：请参照 [https://github.com/li-plus/chatglm.cpp?tab=readme-ov-file](https://github.com/li-plus/chatglm.cpp?tab=readme-ov-file)
@@ -30,8 +34,8 @@ mac_companion常驻 mac 顶部菜单栏。可以让我在绝大多数 app 中，
 <img width="584" alt="image" src="https://github.com/craii/mac_companion/assets/10702100/6411921c-1925-438a-806a-562d2606318b">
 <br>
 注意：
- - 记录上图中地址 ```http://127.0.0.1:8001``` 中的端口号： ```8001``` ；
- - 记录启动 ```OpenAI API``` 服务时使输入的命令：本项目使用的是量化加速后的 chatglm， 启动命令为：<br> ```cd /Users/YOURNAME/Documents/chatglm.cpp-chatglm3/chatglm_cpp && MODEL=../chatglm3-ggml.bin /Users/YOURNAME/anaconda3/envs/chatglmcpp/bin/uvicorn chatglm_cpp.openai_api:app --host 127.0.0.1 --port 8001``` ；
+ - 记录上图中地址 ```127.0.0.1:8001``` 中的端口号：```8001``` ；
+ - 记录启动 ```OpenAI_API``` 服务时使输入的命令：本项目使用的是量化加速后的 chatglm， 启动命令为：<br> ```cd /Users/YOURNAME/Documents/chatglm.cpp-chatglm3/chatglm_cpp && MODEL=../chatglm3-ggml.bin /Users/YOURNAME/anaconda3/envs/chatglmcpp/bin/uvicorn chatglm_cpp.openai_api:app --host 127.0.0.1 --port 8001``` ；
 
 <br>
 
@@ -40,8 +44,13 @@ mac_companion常驻 mac 顶部菜单栏。可以让我在绝大多数 app 中，
  - 修改 ```port``` 的值为：你看到的端口号 (如以上图为例，则将其修改为8001)；
  - 修改 ```aiserver_command``` ： ```cd /Users/YOURNAME/Documents/chatglm.cpp-chatglm3/chatglm_cpp && MODEL=../chatglm3-ggml.bin /Users/YOURNAME/anaconda3/envs/chatglmcpp/bin/uvicorn chatglm_cpp.openai_api:app --host 127.0.0.1 --port 8001```（根据你的实际情况修改）
 <br>
-修改后的 ```config.py``` 可能如下：<br>
+修改后的```config.py```可能如下：<br>
 
 ![image](https://github.com/craii/mac_companion/assets/10702100/cf995a72-3b76-4256-b58a-19b08b5d9e7e)
+
+<br>
+
+## Step 3
+回到
 
 
