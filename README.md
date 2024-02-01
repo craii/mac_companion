@@ -48,12 +48,12 @@ mac_companion常驻 mac 顶部菜单栏。可以让我在绝大多数 app 中，
 <br>
 
 ## Step 4 <br>
-修改本项目中的 ```config.py``` 文件:
- - 修改 ```port``` 的值为：你看到的端口号 (如以上图为例，则将其修改为8001)；
- - 修改 ```aiserver_command``` ： ```cd /Users/YOURNAME/Documents/chatglm.cpp-chatglm3/chatglm_cpp && MODEL=../chatglm3-ggml.bin /Users/YOURNAME/anaconda3/envs/chatglmcpp/bin/uvicorn chatglm_cpp.openai_api:app --host 127.0.0.1 --port 8001```（根据你的实际情况修改）
+修改本项目中的 ```config.py``` 文件: <br>
+ - 修改 ```port``` 的值为：你看到的端口号 (如以上图为例，则将其修改为8001)；<br>
+ - 修改 ```aiserver_command``` ： ```cd /Users/YOURNAME/Documents/chatglm.cpp-chatglm3/chatglm_cpp && MODEL=../chatglm3-ggml.bin /Users/YOURNAME/anaconda3/envs/chatglmcpp/bin/uvicorn chatglm_cpp.openai_api:app --host 127.0.0.1 --port 8001```（根据你的实际情况修改）<br>
  - 修改 ```python_executable``` 的值为：```/documents/mac_companion/venv/bin/python```(参考Step 2)
 <br>
-修改后的```config.py```可能如下：<br>
+修改后的 ```config.py``` 可能如下：<br>
 
 ![image](https://github.com/craii/mac_companion/assets/10702100/cf995a72-3b76-4256-b58a-19b08b5d9e7e)
 
@@ -69,6 +69,6 @@ mac_companion常驻 mac 顶部菜单栏。可以让我在绝大多数 app 中，
 
 
 ## Step 6 <br>
-回到```mac_companion```文件夹， 运行```python App.py```
+回到 ```mac_companion``` 文件夹， 运行 ```python App.py```
 
 
