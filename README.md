@@ -1,4 +1,4 @@
-# mac_companion
+<img width="181" alt="image" src="https://github.com/craii/mac_companion/assets/10702100/0c6478e1-417a-4c2c-9cf5-d53d543ed146"># mac_companion
 copilot for mac, a pale imitation of windows copilot
 <br>
  
@@ -58,6 +58,17 @@ mac_companion常驻 mac 顶部菜单栏。可以让我在绝大多数 app 中，
 ![image](https://github.com/craii/mac_companion/assets/10702100/cf995a72-3b76-4256-b58a-19b08b5d9e7e)
 
 ## Step 5 <br>
+1. 双击 ```copilot.workflow``` ，会自动安装 ```copilot.workflow```，然后在打开的页面里，将下图中 ```红框``` 和 ```篮框```部分为 ```mac_companion``` 的项目路径；<br>
+<img width="1512" alt="image" src="https://github.com/craii/mac_companion/assets/10702100/41a6a1ad-6980-49e1-a960-536ed4f2ad50">
+
+<br>
+
+> 双击后， ```copilot.workflow``` 如果没有自动打开，则在 **启动台** 中找到 **自动操作** 并用其打开copilot.workflow， 按照要求修改
+<img width="181" alt="image" src="https://github.com/craii/mac_companion/assets/10702100/ca20d237-04a1-4209-807e-02f6d6735d22">
+
+
+
+## Step 6 <br>
 回到```mac_companion```文件夹， 运行```python App.py```
 
 
