@@ -1,4 +1,4 @@
-<img width="181" alt="image" src="https://github.com/craii/mac_companion/assets/10702100/0c6478e1-417a-4c2c-9cf5-d53d543ed146"># mac_companion
+# mac_companion
 copilot for mac, a pale imitation of windows copilot
 <br>
  
