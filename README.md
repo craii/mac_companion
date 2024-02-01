@@ -37,7 +37,8 @@ mac_companion常驻 mac 顶部菜单栏。可以让我在绝大多数 app 中，
  - 修改```port```的值为：你看到的端口号 (如以上图为例，则将其修改为8001)；
  - 修改```aiserver_command```：```"cd /Users/YOURNAME/Documents/chatglm.cpp-chatglm3/chatglm_cpp && MODEL=../chatglm3-ggml.bin /Users/YOURNAME/anaconda3/envs/chatglmcpp/bin/uvicorn chatglm_cpp.openai_api:app --host 127.0.0.1 --port 8001" ```（根据你的实际情况修改）
 <br>
-修改后的```config.py```可能如下：
+修改后的```config.py```可能如下：<br>
+
 ![image](https://github.com/craii/mac_companion/assets/10702100/cf995a72-3b76-4256-b58a-19b08b5d9e7e)
 
 
