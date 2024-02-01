@@ -13,9 +13,20 @@ mac_companion常驻 mac 顶部菜单栏。可以让我在绝大多数 app 中，
 - **mac_companion【直接运行版】**：如果的 ```mac 使用的是M系列芯片``` ，可转至[此仓库](https://github.com/craii/mac_companion_for_M_Chip_mac) ，参照对应文档下载安装即可。也可以直接下载整合包：
 > [整合包](https://pan.quark.cn/s/1e23a679b846) ， 提取码：dTK1
 
-整合包已经集成了本项目的虚拟环境、chatglm 所需的虚拟环境 以及 chatglm 模型。下载完成后只需要切换到解压目录下，运行 ```python run.py```即可运行（我已在两台m-chip的mac上测试可行）。
+整合包已经集成了本项目的虚拟环境、chatglm 所需的虚拟环境 以及 chatglm 模型。下载完成后只需要切换到解压目录下，运行 ```python run.py```即可运行（我已在两台m-chip的mac上测试可行）。```INTEL芯片```的mac未经测试，但应该是不能运行的，因为本项目使用的 chatglm 在进行cpp编译时采用的参数中指定了arm平台。
 
 # Setup
 ## **Python版本：**
 - **mac_companion**: 3.11.5;
 - **chatglm-6b**: 3.8.18;
+
+## step 1
+1. **安装 chatglm**:
+   - 如果你倾向于使用完全版的 chatglm：请参照 [https://github.com/THUDM/ChatGLM3](https://github.com/THUDM/ChatGLM3) ；
+   - 如果你倾向于使用量化加速后的 chatglm：请参照 [https://github.com/li-plus/chatglm.cpp?tab=readme-ov-file](https://github.com/li-plus/chatglm.cpp?tab=readme-ov-file)
+
+注意，安装完成后请务必先验证其是否被正确安装，并且能够启动 ```OpenAI API``` ，如果正常启动，那么你应该能够在终端看到类似下图的文字
+<img width="584" alt="image" src="https://github.com/craii/mac_companion/assets/10702100/6411921c-1925-438a-806a-562d2606318b">
+
+  
+2. DD 
