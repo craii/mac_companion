@@ -1,6 +1,9 @@
 # mac_companion
 copilot for mac, a pale imitation of windows copilot
 <br>
+
+# 效果
+https://www.bilibili.com/video/BV1Gy421h7mq/
  
 # 简介
 在学习pyqt的过程中，经常向gpt提问，提高学习进度。但复制-->打开浏览器-->切换标签-->填入输入框并提问的过程重复多次后，变成了恼人的操作。于是，就有了本项目。
